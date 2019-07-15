@@ -1,0 +1,10 @@
+.book {
+  padding: 6px;
+  border: 1px solid #dedede;
+  box-shadow: 2px 2px 1rem #dedede;
+
+  & .book-img img {
+    height: 200px;
+    max-width: auto;
+  }
+}
