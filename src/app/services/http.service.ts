@@ -11,6 +11,6 @@ export class HttpService {
 
   searchBooks(searchParams?: any) {
 
-    return this.http.get(`http://localhost:3000?q=${searchParams.filter}&page=${searchParams.page}&key=${this.goodReadsKey}`)
+    return this.http.get(`https://goodreads-search.herokuapp.com/?q=${searchParams.filter}&page=${searchParams.page}&key=${this.goodReadsKey}`)
   }
 }
